@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой учебник для Меня Любимого!</title>
+    <link rel="stylesheet" href="../../CSS-JS/style.css">
+    <link rel="stylesheet" href="HTML.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-menu" onclick="show_menu()">Язык Программирования</div>
+            <div class="arrow_png" onclick="show_menu()"></div>
+        </div>
+        <div class="container-menu" id="container_menu">
+            <ul>
+                <li><a href="/src/pages/HTML.html">HTML</a></li>
+                <li><a href="/src/pages/CSS.html">CSS</a></li>
+            </ul>
+            <ul>
+                <li><a href="/src/pages/JS.html">JS</a></li>
+                <li><a href="/src/pages/PHP.html">PHP</a></li>
+            </ul>
+        </div>
+
+        <div class="header-title">Учебник для меня Любимого!</div>
+        <a href="/Index.html"><div class="header-logo"></div></a>
+    </header>
+
+    <main>
+        <div class="main-content">
+                <p class="greeting">HTML</p><br>
+                <div class="main-content-themes">
+                    <div>1. HTML (17.08.2024)</div>
+                    <div class="main-content-themes-arrow_png" onclick=""></div>
+                </div>
+            <!-- <div class="main-content-search">
+                <form>
+                    <input type="text" value="" placeholder="Search" autofocus> 
+                    <input type="button" onclick="FindOnPage('text-to-find',false); return false"; value=" " title="Отменить поиск">
+                    <input  type="submit" value=" " title="Начать поиск">
+            </form>
+          </div> -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-copy">2024 Дмитрий Антонов</div>
+        <div class="footer-about"><a href="/src/pages/about.html">о проекте</a></div>
+        <div class="footer-contacts"><a href="/src/pages/contacts.html">связаться с нами</a></div>
+    </footer>
+</body>
+<script src="../CSS-JS/script.js"></script>
+</html>

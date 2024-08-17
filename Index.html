@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой учебник для Меня Любимого!</title>
+    <link rel="stylesheet" href="src/CSS-JS/style.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-menu" onclick="show_menu()">Язык Программирования</div>
+            <div class="arrow_png" onclick="show_menu()"></div>
+        </div>
+        <div class="container-menu" id="container_menu">
+            <ul>
+                <li><a href="/src/pages/HTML/HTML.html">HTML</a></li>
+                <li><a href="/src/pages/CSS/CSS.html">CSS</a></li>
+            </ul>
+            <ul>
+                <li><a href="/src/pages/JS/JS.html">JS</a></li>
+                <li><a href="/src/pages/PHP/PHP.html">PHP</a></li>
+            </ul>
+        </div>
+
+        <div class="header-title">Учебник для меня Любимого!</div>
+        <div class="header-logo"></div>
+    </header>
+
+    <main>
+        <div class="main-content">
+            <div class="main-content-greeting">
+                <p class="greeting">Привутствуем Вас!</p><br>
+                <p>Вы попали на сайт для моего личного пользования, где собраны конспекты, задачи и примеры по разным языкам программирования!</p><br>
+                <p>Чтобы найти нужную информацию, сначала выберите нужный язык программирования в левом верхнем углу, нажав на поле с надписью "Язык программирования".</p>
+            </div>
+            <!-- <div class="main-content-search">
+                <form>
+                    <input type="text" value="" placeholder="Search" autofocus> 
+                    <input type="button" onclick="FindOnPage('text-to-find',false); return false"; value=" " title="Отменить поиск">
+                    <input  type="submit" value=" " title="Начать поиск">
+            </form>
+          </div> -->
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-copy">2024 Дмитрий Антонов</div>
+        <div class="footer-about"><a href="/src/pages/about/about.html">о проекте</a></div>
+        <div class="footer-contacts"><a href="/src/pages/contacts/contacts.html">связаться с нами</a></div>
+    </footer>
+</body>
+<script src="src/CSS-JS/script.js"></script>
+</html>

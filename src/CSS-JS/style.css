@@ -1,0 +1,190 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: url('https://kartinki.pics/uploads/posts/2021-07/1626979707_3-kartinkin-com-p-fon-dlya-logotipa-svetlii-krasivo-3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+.header {
+    height: 65px;
+    display: flex;
+    background-color: #DCDCDC;
+    border-bottom: 5px solid #eeeeee;
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+    background: url(/src/img/logo.jpg);
+    background-size: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 15%;
+    margin-top: 7.5px;
+}
+
+.header-title {
+    margin-right: 1%;
+    margin-top: 25px;
+    color: #B22222;
+}
+
+.header-container {
+    margin-left: 2.5%;
+    margin-right: 71%;
+    display: flex;
+}
+
+.header-menu {
+    width: 200px;
+    height: 20px;
+    margin-top: 25px;
+	transition: all 0.2s ease;
+    z-index: 11;
+    cursor: pointer;
+}
+
+.header-menu:hover {
+    color: #B22222;
+}
+
+.arrow_png {
+    width: 20px;
+    height: 20px;
+    background: url(../img/стрелка.png);
+    background-size: 20px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-top: 22.5px;
+    margin-left: -5px;
+    cursor: pointer;
+}
+
+.container-menu {
+    width: 200px;
+    height: 100px;
+    background-color: #DCDCDC;
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    top: 6.33%;
+    left: 2.5%;
+    border: 4px solid #eeeeee;
+    border-top: 0px;
+}
+
+.container-menu li {
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.container-menu li a:hover {
+    color: #B22222;
+}
+
+
+/* MAIN */
+
+main {
+    width: 1200px;
+    background-color: #eeeeee;
+    margin-left: 360px;
+    display: flex;
+    justify-content: center;
+    border-left: 2px dashed #dbdbdb;
+    border-right: 2px dashed #dbdbdb;
+    flex: 1 0 auto;
+}
+
+.main-content {
+    width: 1000px;
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.greeting {
+    text-align: center;
+    text-indent: -20px;
+}
+
+p {
+    text-indent: 20px;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 65px;
+    display: flex;
+    background-color: #DCDCDC;
+    border-top: 5px solid #eeeeee;
+    flex: 0 0 auto;
+}   
+
+footer div {
+    height: 20px;
+    margin-left: 1.5%;
+    cursor: pointer;
+    margin-top: 20px;
+    border-right: 2px solid black;
+    color: black;
+}
+
+.footer-copy {
+    width: 200px;
+    cursor: auto;
+    margin-left: 2.5%;
+    border-left: 0px;
+} 
+
+.footer-about {
+    width: 104px;
+}
+
+.footer-contacts {
+    width: 160px;
+}
+
+.footer-about a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.footer-contacts a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease;
+}
+
+.footer-contacts a:hover {
+    color: #B22222;
+}
+
+.footer-about a:hover {
+    color: #B22222;
+}
