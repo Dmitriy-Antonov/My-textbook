@@ -1,16 +1,28 @@
-.main-contents-themes {
+.topic {
     display: flex;
+    z-index: 11;
 }
 
-.main-content-themes {
-    width: 500px;
+.theme {
+    cursor: pointer;
+    z-index: 11;
 }
 
 .main-content-themes-arrow_png {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background: url(../../img/стрелка.png);
-    background-size: 20px;
+    background-size: 30px;
     background-position: center center;
     background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.main-content-themes-content {
+    width: 1000px;
+    height: 100px;
+    opacity: 0;
+    margin-top: -100px;
+    cursor: default;
 }
